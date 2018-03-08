@@ -2,6 +2,8 @@
 
 install Minimal ADB and Fastboot
 
+copi your files Philz_Touch-6-lenny4plus-v6.img and magisk_v16_bootv6.img in folder Minimal ADB and Fastboot
+
 open cmd
 
 command:
