@@ -1,23 +1,29 @@
 # lenny-4-plus-files
 
-via minimal adb
+install Minimal ADB and Fastboot
+
+open cmd
 
 command:
 
 1: adb reboot bootloader
 
-2: fastboot flash boot magisk_v16_bootv6.img
+2: fastboot oem unlock
 
-3: fastboot flash recovery Philz_Touch-6-lenny4plus-v6.img
+3: push volume up
 
-4: fastboot boot Philz_Touch-6-lenny4plus-v6.img
+4: fastboot flash boot magisk_v16_bootv6.img
 
-5: install magisk_v16.zip
+5: fastboot flash recovery Philz_Touch-6-lenny4plus-v6.img
 
-6: reboot system
+6: fastboot boot Philz_Touch-6-lenny4plus-v6.img
 
-7: install magisk manager 5.6.1
+7: install magisk_v16.zip
 
-8: reboot your phone
+8: reboot system
 
-9: go rooted phone
+9: install magisk manager 5.6.1
+
+10: reboot your phone
+
+11: go rooted phone
